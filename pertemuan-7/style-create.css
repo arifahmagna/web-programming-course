@@ -1,0 +1,85 @@
+/* style-create.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #001f3f, #004d80);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #002a4d;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.data-produk {
+    margin-bottom: 20px;
+}
+
+.data-produk a {
+    text-decoration: none;
+    color: #00bcd4;
+    font-weight: bold;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="file"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="file"] {
+    background-color: #004d80;
+    color: #fff;
+}
+
+form input[type="text"]::placeholder,
+form input[type="number"]::placeholder {
+    color: #b3d9ff;
+}
+
+form input[type="file"] {
+    color: #b3d9ff;
+}
+
+form input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #333;
+}
