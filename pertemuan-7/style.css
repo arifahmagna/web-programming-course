@@ -1,0 +1,103 @@
+/* CSS untuk halaman register */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* Ubah arah layout menjadi vertikal */
+    align-items: center;
+    /* Posisikan elemen di tengah horizontal */
+    justify-content: flex-start;
+    /* Posisikan elemen di atas halaman */
+    min-height: 100vh;
+    background: linear-gradient(135deg, #00172d, #003c5e);
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    padding-top: 20px;
+    /* Tambahkan jarak antara atas halaman dengan form */
+}
+
+form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    outline: none;
+    box-sizing: border-box;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: #dddddd;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #333333;
+}
+
+.login-akun {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-akun a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.login-akun a:hover {
+    text-decoration: none;
+}
+
+.buat-akun {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.buat-akun a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.buat-akun a:hover {
+    text-decoration: none;
+}
